@@ -2,7 +2,7 @@
 int redLED = 5;
 int yellowLED = 7;
 int greenLED = 9;
-int del = 400; // Milliseconds of delayment
+int del = 500; // Milliseconds of delayment
 
 void setup() {
 // Making the LEDs outputs
@@ -23,7 +23,9 @@ delay(del);
 digitalWrite(yellowLED,HIGH);
 delay(del);
 digitalWrite(yellowLED,LOW);
+delay(del);
 digitalWrite(greenLED,HIGH);
 delay(del);
 digitalWrite(greenLED,LOW);
+delay(del);
 }
